@@ -1,0 +1,27 @@
+@import '../color';
+
+.orderTable {
+  &-tag {
+    color: $primary-text;
+    font-size: 15px;
+  }
+  &-id0 {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 30px;
+  }
+  &-id1 {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  &-id2 {
+    display: inline-block;
+    font-size: 15px;
+    width: 8%;
+    border-radius: 10%;
+    color: rgb(74, 183, 153);
+    background-color: rgb(50, 76, 79);
+  }
+}
